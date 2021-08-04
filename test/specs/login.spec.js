@@ -6,7 +6,7 @@ const loginPage = require('../pages/login.page');
 describe('Notarize Signer Login Page', () => {
   it('should open the login page', () => {
     LoginPage.open();
-    // LoginPage.waitForPage();
+    LoginPage.waitForPage();
     expect(LoginPage.header).toEqual('Welcome back!');
     expect(LoginPage.signupLink).toBeDisplayed();
   });
