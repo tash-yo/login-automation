@@ -3,11 +3,11 @@
 
 In order to run the test, you'll have to add a `.env` file with the env vars:
 
-`EMAIL_ADDRESS={{your_email_address}}`
-<br>
+```EMAIL_ADDRESS={{your_email_address}}```
+
 And
-</br>
-`PASSWORD={{your_password}}`
+
+```PASSWORD={{your_password}}```
 
 I changed the starter code a bit so instead of exporting the `open()` function, it's inside the LoginPage class and i exported the class to call in the test.
 
