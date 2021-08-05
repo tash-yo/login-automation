@@ -15,7 +15,7 @@ class LoginPage {
   }
 
   get loginWithGoogleBtn() {
-    $('button[data-automation-id="google-sign-in-button"]');
+    return $('button[data-automation-id="google-sign-in-button"]');
   }
 
   get signupLink() {
